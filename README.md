@@ -39,8 +39,8 @@ Step 3: Repeat the  iteration  until the losses become constant and
              (v)   Append the losses in a list
 Step 4 : Test for the XOR patterns.
 
-** PROGRAM** 
-/Type your Program here/
+## PROGRAM
+
 ```
 import numpy as np
 import pandas as pd
