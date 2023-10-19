@@ -42,7 +42,6 @@ Step 4 : Test for the XOR patterns.
 ** PROGRAM** 
 /Type your Program here/
 ###
-
 import numpy as np
 import pandas as pd
 import io 
@@ -90,13 +89,9 @@ for i in range(iterations):
     da2,dw2,dz1,dw1 = back_prop(m,w1,w2,z1,a1,z2,a2,y)
     w2 = w2-lr*dw2
     w1 = w1-lr*dw1
-
-
-
 plt.plot(losses)
 plt.xlabel("EPOCHS")
 plt.ylabel("Loss value")
-
 ###
 
  **OUTPUT** 
