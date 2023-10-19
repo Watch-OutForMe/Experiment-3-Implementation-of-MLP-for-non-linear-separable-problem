@@ -41,7 +41,7 @@ Step 4 : Test for the XOR patterns.
 
 ** PROGRAM** 
 /Type your Program here/
-###
+```
 import numpy as np
 import pandas as pd
 import io 
@@ -92,7 +92,7 @@ for i in range(iterations):
 plt.plot(losses)
 plt.xlabel("EPOCHS")
 plt.ylabel("Loss value")
-###
+```
 
  **OUTPUT** 
 
